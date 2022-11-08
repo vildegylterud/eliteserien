@@ -31,7 +31,7 @@ export default defineComponent({
   },
   computed: {
     transparentNavBar() {
-      return this.$router.currentRoute.value.name == "landingpage";
+      return this.$router.currentRoute.value.name == "/";
     },
     theme() {
       const store = useStore();

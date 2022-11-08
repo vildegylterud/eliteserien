@@ -5,9 +5,9 @@
     @click="toggleTheme"
     prepend-icon="mdi-white-balance-sunny"
     variant="outlined"
-    height="42"
-    >Bytt tema</v-btn
+    height="38"
   >
+  </v-btn>
 
   <v-btn
     class=""
@@ -15,9 +15,8 @@
     v-else
     @click="toggleTheme"
     prepend-icon="mdi-moon-waxing-crescent"
-    height="42"
+    height="38"
   >
-    Bytt tema
   </v-btn>
 </template>
 

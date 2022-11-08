@@ -1,12 +1,10 @@
 <template>
-  <v-card class="bg-secondary">
-    >
-
+  <v-card class="bg-secondary border-0 ml-5" elevation="0">
     <v-list-item
-      class="w-100 pb-5"
-      :prepend-icon="logo"
+      class="w-100"
       :title="title"
       :subtitle="subtitle"
+      :prepend-avatar="logo"
     >
     </v-list-item>
   </v-card>
