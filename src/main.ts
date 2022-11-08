@@ -3,8 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
-import { loadFonts } from "./plugins/webfontloader";
+import * as apolloProvider from "./services/ApolloClient";
 
-loadFonts();
+const app = createApp(App);
 
-createApp(App).use(router).use(store).use(vuetify).mount("#app");
+app
+  .use(router)
+  .use(store)
+  .use(vuetify)
+  .use(apolloProvider.provider)
+  .mount("#app");

@@ -5,4 +5,7 @@ module.exports = defineConfig({
       // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
     },
   },
+  devServer: {
+    proxy: "https://resultatservice-api.stage-sumo.tv2.no/api/graphql",
+  },
 });
