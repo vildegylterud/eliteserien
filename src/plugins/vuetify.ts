@@ -19,6 +19,9 @@ const dark = {
     info: "#2196F3",
     success: "#4CAF50",
     warning: "#FB8C00",
+    gold: "#FFD700",
+    silver: "#C0C0C0",
+    bronze: "#665D1E",
   },
 };
 const light = {
@@ -34,6 +37,9 @@ const light = {
     info: "#e0ece0",
     success: "#4CAF50",
     warning: "#FB8C00",
+    gold: "#FFD700",
+    silver: "#C0C0C0",
+    bronze: "#665D1E",
   },
 };
 

@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <div>
+    <div v-if="$apollo.loading">Loading...</div>
+    <div v-else>
       <v-card class="bg-background border-0 justify-center mt-8" elevation="0">
         <v-list-item class="w-100 justify-center" :prepend-avatar="logo">
           <v-list-item-title class="text-h5 mb-1">
@@ -23,9 +24,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>{{ time }}</td>
-            <td>{{ participants }}</td>
+          <tr
+            v-for="match in eventsByParticipantAndDateRange"
+            :key="match.name"
+          >
+            <td>{{ match.participants }}</td>
+            <td>{{ match.startDate }}</td>
             <td><v-icon icon="mdi-bell-ring"></v-icon></td>
           </tr>
         </tbody>
@@ -34,17 +38,35 @@
   </v-container>
 </template>
 
-<script setup lang="ts">
-import { ref } from "vue";
-import MatchResultIcon from "@/components/MatchResultIcon.vue";
+<script lang="ts">
+import { GET_TEAM } from "@/queries/getTeam";
 
-//  "participantId": "83af5c96-fe8d-4f60-a1ea-d89e01a14826"
+const participantId = "83af5c96-fe8d-4f60-a1ea-d89e01a14826";
+const toDate = "2022-12-23T18:25:43.511Z";
+const fromDate = "2022-08-23T18:25:43.511Z";
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const logo = ref(require("@/assets/molde-logo.png"));
-const time = ref("10.11.2022");
-const participants = ref("Vålerenga IF - " + "\n" + "Molde FK");
-const result = ref("");
+const date: any = new Date().toISOString().substring(0, 10);
 
-const team = ref("Molde FK");
+export default {
+  apollo: {
+    eventsByParticipantAndDateRange: {
+      query: GET_TEAM,
+      variables: {
+        participantId: participantId.valueOf(),
+        toDate: "2022-12-23T18:25:43.511Z",
+        fromDate: "2022-08-23T18:25:43.511Z",
+      },
+    },
+  },
+  data() {
+    return {
+      loading: "",
+      error: "",
+      participantId: "83af5c96-fe8d-4f60-a1ea-d89e01a14826",
+      toDate: toDate.valueOf(),
+      fromDate: fromDate.valueOf(),
+      eventsByParticipantAndDateRange: [],
+    };
+  },
+};
 </script>

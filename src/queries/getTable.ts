@@ -7,7 +7,13 @@ export const GET_TABLE = gql`
       standings(type: LEAGUE_TABLE) {
         participants {
           participant {
+            id
             name
+            images {
+              url
+              width
+              height
+            }
           }
           rank
           data {
