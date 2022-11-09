@@ -1,4 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
+
 module.exports = defineConfig({
   pluginOptions: {
     vuetify: {
@@ -6,6 +7,6 @@ module.exports = defineConfig({
     },
   },
   devServer: {
-    proxy: "https://resultatservice-api.stage-sumo.tv2.no/api/graphql",
+    proxy: "https://resultatservice-api.stage-sumo.tv2.no/api/graphiql",
   },
 });

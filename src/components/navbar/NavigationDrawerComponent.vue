@@ -5,7 +5,7 @@
     class="border-b-sm bg-secondary"
     border="secondary"
     elevate-on-scroll
-    height="80"
+    height="100"
     :class="{ 'bg-transparent': props.transparent }"
   >
     <NavigationCardComponent></NavigationCardComponent>
@@ -13,7 +13,7 @@
       :transparentMode="transparent"
     ></NavigationBarLogoComponent>
     <v-btn class="mr-3 text-background"
-      ><v-icon icon="mdi-magnify" size="25"></v-icon
+      ><v-icon icon="mdi-magnify" size="30"></v-icon
     ></v-btn>
     <ThemeToggleComponent class="mr-6"></ThemeToggleComponent>
   </v-toolbar>

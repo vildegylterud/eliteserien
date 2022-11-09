@@ -1,0 +1,1613 @@
+{
+  "data": {
+    "tournamentStage": {
+      "name": "Eliteserien",
+      "standings": [
+        {
+          "participants": [
+            {
+              "participant": {
+                "name": "Molde"
+              },
+              "rank": 1,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "75"
+                },
+                {
+                  "code": "winshome",
+                  "value": "12"
+                },
+                {
+                  "code": "rank",
+                  "value": "1"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "69"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "defeits",
+                  "value": "2"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "2"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "39"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "13"
+                },
+                {
+                  "code": "wins",
+                  "value": "24"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "24"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "12"
+                },
+                {
+                  "code": "draws",
+                  "value": "3"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "1"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "0"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "30"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "11"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "37"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "38"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "FK Bodø/Glimt"
+              },
+              "rank": 2,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "57"
+                },
+                {
+                  "code": "rank",
+                  "value": "2"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "82"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "39"
+                },
+                {
+                  "code": "winshome",
+                  "value": "8"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "9"
+                },
+                {
+                  "code": "draws",
+                  "value": "6"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "17"
+                },
+                {
+                  "code": "defeits",
+                  "value": "6"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "6"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "0"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "1"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "47"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "35"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "20"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "19"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "30"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "27"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Rosenborg"
+              },
+              "rank": 3,
+              "data": [
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "2"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "6"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "0"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "points",
+                  "value": "56"
+                },
+                {
+                  "code": "rank",
+                  "value": "3"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "67"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "41"
+                },
+                {
+                  "code": "winshome",
+                  "value": "12"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "4"
+                },
+                {
+                  "code": "draws",
+                  "value": "8"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "16"
+                },
+                {
+                  "code": "defeits",
+                  "value": "5"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "36"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "31"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "29"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "38"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "18"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Lillestrøm"
+              },
+              "rank": 4,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "50"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "25"
+                },
+                {
+                  "code": "rank",
+                  "value": "4"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "46"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "33"
+                },
+                {
+                  "code": "winshome",
+                  "value": "7"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "7"
+                },
+                {
+                  "code": "draws",
+                  "value": "5"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "15"
+                },
+                {
+                  "code": "defeits",
+                  "value": "9"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "2"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "4"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "21"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "21"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "24"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "23"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Vålerenga"
+              },
+              "rank": 5,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "44"
+                },
+                {
+                  "code": "rank",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "51"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "47"
+                },
+                {
+                  "code": "winshome",
+                  "value": "9"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "4"
+                },
+                {
+                  "code": "draws",
+                  "value": "5"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "13"
+                },
+                {
+                  "code": "defeits",
+                  "value": "11"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "2"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "8"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "30"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "21"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "19"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "28"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "29"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "15"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Odd"
+              },
+              "rank": 6,
+              "data": [
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "rank",
+                  "value": "6"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "26"
+                },
+                {
+                  "code": "points",
+                  "value": "44"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "42"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "44"
+                },
+                {
+                  "code": "winshome",
+                  "value": "8"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "draws",
+                  "value": "5"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "13"
+                },
+                {
+                  "code": "defeits",
+                  "value": "11"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "1"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "4"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "6"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "16"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "22"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "22"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "19"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "25"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Tromsø"
+              },
+              "rank": 7,
+              "data": [
+                {
+                  "code": "rank",
+                  "value": "7"
+                },
+                {
+                  "code": "points",
+                  "value": "42"
+                },
+                {
+                  "code": "winshome",
+                  "value": "8"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "draws",
+                  "value": "12"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "10"
+                },
+                {
+                  "code": "defeits",
+                  "value": "7"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "4"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "8"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "2"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "27"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "17"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "21"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "26"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "28"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "14"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "44"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "47"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Sarpsborg 08"
+              },
+              "rank": 8,
+              "data": [
+                {
+                  "code": "goalsagainsthome",
+                  "value": "24"
+                },
+                {
+                  "code": "points",
+                  "value": "38"
+                },
+                {
+                  "code": "rank",
+                  "value": "8"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "54"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "52"
+                },
+                {
+                  "code": "winshome",
+                  "value": "6"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "draws",
+                  "value": "5"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "11"
+                },
+                {
+                  "code": "defeits",
+                  "value": "13"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "3"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "6"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "27"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "17"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "7"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "27"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "28"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "21"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Aalesund"
+              },
+              "rank": 9,
+              "data": [
+                {
+                  "code": "rank",
+                  "value": "9"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "10"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "5"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "7"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "17"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "17"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "26"
+                },
+                {
+                  "code": "points",
+                  "value": "38"
+                },
+                {
+                  "code": "winshome",
+                  "value": "6"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "draws",
+                  "value": "8"
+                },
+                {
+                  "code": "defeits",
+                  "value": "11"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "12"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "23"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "30"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "43"
+                },
+                {
+                  "code": "trend",
+                  "value": "-1"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Haugesund"
+              },
+              "rank": 10,
+              "data": [
+                {
+                  "code": "rank",
+                  "value": "10"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "40"
+                },
+                {
+                  "code": "defeits",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "44"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "24"
+                },
+                {
+                  "code": "points",
+                  "value": "37"
+                },
+                {
+                  "code": "winshome",
+                  "value": "5"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "4"
+                },
+                {
+                  "code": "draws",
+                  "value": "7"
+                },
+                {
+                  "code": "wins",
+                  "value": "10"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "4"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "7"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "16"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "22"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "22"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "15"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "22"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "5"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Viking"
+              },
+              "rank": 11,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "34"
+                },
+                {
+                  "code": "rank",
+                  "value": "11"
+                },
+                {
+                  "code": "winshome",
+                  "value": "5"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "draws",
+                  "value": "7"
+                },
+                {
+                  "code": "wins",
+                  "value": "8"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "4"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "20"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "18"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "19"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "15"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "47"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "53"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "defeits",
+                  "value": "13"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "8"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "27"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "35"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Strømsgodset"
+              },
+              "rank": 12,
+              "data": [
+                {
+                  "code": "rank",
+                  "value": "12"
+                },
+                {
+                  "code": "points",
+                  "value": "33"
+                },
+                {
+                  "code": "winshome",
+                  "value": "7"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "draws",
+                  "value": "6"
+                },
+                {
+                  "code": "wins",
+                  "value": "9"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "2"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "4"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "5"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "9"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "30"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "21"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "30"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "23"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "10"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "42"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "51"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "defeits",
+                  "value": "14"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "HamKam"
+              },
+              "rank": 13,
+              "data": [
+                {
+                  "code": "points",
+                  "value": "31"
+                },
+                {
+                  "code": "rank",
+                  "value": "12"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "32"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "40"
+                },
+                {
+                  "code": "winshome",
+                  "value": "4"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "draws",
+                  "value": "13"
+                },
+                {
+                  "code": "wins",
+                  "value": "6"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "6"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "7"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "17"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "15"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "17"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "18"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "13"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "defeits",
+                  "value": "10"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "23"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Sandefjord"
+              },
+              "rank": 14,
+              "data": [
+                {
+                  "code": "winsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "6"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "19"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "66"
+                },
+                {
+                  "code": "points",
+                  "value": "23"
+                },
+                {
+                  "code": "rank",
+                  "value": "14"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "40"
+                },
+                {
+                  "code": "winshome",
+                  "value": "1"
+                },
+                {
+                  "code": "draws",
+                  "value": "5"
+                },
+                {
+                  "code": "defeits",
+                  "value": "18"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "5"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "0"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "8"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "10"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "21"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "33"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "33"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "8"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "15"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Kristiansund BK"
+              },
+              "rank": 15,
+              "data": [
+                {
+                  "code": "goalsagainst",
+                  "value": "59"
+                },
+                {
+                  "code": "rank",
+                  "value": "16"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "14"
+                },
+                {
+                  "code": "defeits",
+                  "value": "17"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "11"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "26"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "15"
+                },
+                {
+                  "code": "points",
+                  "value": "22"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "36"
+                },
+                {
+                  "code": "winshome",
+                  "value": "4"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "1"
+                },
+                {
+                  "code": "draws",
+                  "value": "7"
+                },
+                {
+                  "code": "wins",
+                  "value": "5"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "4"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "3"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "10"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "28"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "31"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "6"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "16"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "6"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "participant": {
+                "name": "Jerv"
+              },
+              "rank": 16,
+              "data": [
+                {
+                  "code": "rank",
+                  "value": "15"
+                },
+                {
+                  "code": "points",
+                  "value": "19"
+                },
+                {
+                  "code": "goalsfor",
+                  "value": "29"
+                },
+                {
+                  "code": "goalsagainst",
+                  "value": "68"
+                },
+                {
+                  "code": "winshome",
+                  "value": "4"
+                },
+                {
+                  "code": "winsaway",
+                  "value": "1"
+                },
+                {
+                  "code": "draws",
+                  "value": "4"
+                },
+                {
+                  "code": "played",
+                  "value": "29"
+                },
+                {
+                  "code": "wins",
+                  "value": "5"
+                },
+                {
+                  "code": "defeits",
+                  "value": "20"
+                },
+                {
+                  "code": "playedhome",
+                  "value": "15"
+                },
+                {
+                  "code": "playedaway",
+                  "value": "14"
+                },
+                {
+                  "code": "drawshome",
+                  "value": "2"
+                },
+                {
+                  "code": "drawsaway",
+                  "value": "2"
+                },
+                {
+                  "code": "defeitshome",
+                  "value": "9"
+                },
+                {
+                  "code": "defeitsaway",
+                  "value": "11"
+                },
+                {
+                  "code": "goalsforhome",
+                  "value": "15"
+                },
+                {
+                  "code": "goalsforaway",
+                  "value": "14"
+                },
+                {
+                  "code": "goalsagainsthome",
+                  "value": "29"
+                },
+                {
+                  "code": "goalsagainstaway",
+                  "value": "39"
+                },
+                {
+                  "code": "pointshome",
+                  "value": "14"
+                },
+                {
+                  "code": "pointsaway",
+                  "value": "5"
+                },
+                {
+                  "code": "trend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

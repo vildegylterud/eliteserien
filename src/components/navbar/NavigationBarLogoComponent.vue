@@ -6,13 +6,13 @@
     "
     src="@/assets/navbar-logo-purple.png"
     class="pointer"
-    height="55"
+    height="70"
   />
   <v-img
     v-else
     src="@/assets/navbar-logo-dark.png"
     class="pointer"
-    height="55"
+    height="70"
   />
 </template>
 
