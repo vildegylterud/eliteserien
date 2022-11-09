@@ -8,10 +8,18 @@ Prerequisites:
 Node.js
 
 To install follow the link above and download the source code for frontend as described. To run it you must open it in your IDE and run the following commands: <br>
-<li><code>npm install</code></li><br>
-<li><code>npm run serve</code></li>
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
+```
+npm install
+```
+
+#### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
 ### Frontend
 
@@ -48,26 +56,3 @@ The source code for frontend can be found [here](https://github.com/vildegylteru
 
 To download the project press the download button as shown below and select the preferred download type, or clone the project through SSH or login. 
 ![download](uploads/fbd1cb25a5a1a0d26d5510aa6e12e571/download.PNG)
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
