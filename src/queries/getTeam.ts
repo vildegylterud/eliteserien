@@ -11,22 +11,13 @@ export const GET_TEAM = gql`
       fromDate: $fromDate
       toDate: $toDate
     ) {
-      id
       startDate
-      status
       tournamentStage {
         name
       }
       participants {
-        results {
-          resultType
-          value
-        }
         participant {
           name
-          images {
-            url
-          }
         }
       }
     }

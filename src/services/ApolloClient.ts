@@ -3,13 +3,13 @@ import {
   createHttpLink,
   InMemoryCache,
 } from "@apollo/client/core";
-import { GRAPH_QL_URL } from "./urls";
+import { API_URL } from "./urls";
 import { createApolloProvider } from "@vue/apollo-option";
 
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: GRAPH_QL_URL,
+  uri: API_URL,
 });
 
 // Cache implementation
