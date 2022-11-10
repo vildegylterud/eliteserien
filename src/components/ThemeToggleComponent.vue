@@ -1,6 +1,6 @@
 <template>
   <v-btn
-    class="text-yellow-darken-3"
+    class="text-yellow-darken-2"
     v-if="currentTheme === 'dark'"
     @click="toggleTheme"
     prepend-icon="mdi-white-balance-sunny"

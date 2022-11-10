@@ -14,7 +14,7 @@ const dark = {
     primary: "#6f03ff",
     grey: "#bfc2c7",
     "primary-c": "#FFFFFF",
-    secondary: "#ffffff",
+    secondary: "#00263e",
     "secondary-dimmed": "#ededed",
     error: "#e30e2a",
     info: "#2196F3",
@@ -34,7 +34,7 @@ const light = {
     "primary-c": "#ffffff",
     secondary: "#100018",
     grey: "#bfc2c7",
-    "secondary-dimmed": "#ededed",
+    "secondary-dimmed": "#100018",
     error: "#e30e2a",
     info: "#e0ece0",
     success: "#4CAF50",
@@ -47,7 +47,7 @@ const light = {
 
 export default createVuetify({
   theme: {
-    defaultTheme: "light",
+    defaultTheme: "dark",
     themes: {
       dark,
       light,

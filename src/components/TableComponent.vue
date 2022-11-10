@@ -73,7 +73,7 @@
             <td>
               <v-card elevation="0">
                 <v-list-item
-                  class="text-secondary w-100 pl-12 text-decoration-underline"
+                  class="text-secondary-dimmed w-100 pl-12 text-decoration-underline"
                   :prepend-avatar="team.participant.images[0].url"
                   :title="team.participant.name"
                   @click.prevent="

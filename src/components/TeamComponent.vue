@@ -11,7 +11,7 @@
       <v-table height="650px" fixed-header>
         <thead>
           <tr>
-            <th class="text-subtitle-1 text-primary">Terminliste 2022</th>
+            <th class="text-subtitle-1 text-primary pl-8">Terminliste 2022</th>
             <th></th>
             <th></th>
             <th></th>
@@ -22,7 +22,16 @@
             v-for="match in eventsByParticipantAndDateRange"
             :key="match.name"
           >
-            <td>{{ match.startDate }}</td>
+            <td>
+              <v-card class="bg-background border-0" elevation="0">
+                <v-list-item
+                  class="w-100"
+                  :title="match.startDate.substring(11, 16)"
+                  :subtitle="match.startDate.substring(0, 10)"
+                >
+                </v-list-item>
+              </v-card>
+            </td>
             <td>
               {{
                 match.participants[0].participant.name +
@@ -100,7 +109,6 @@ onMounted(async () => {
 export function formatDate(date: Date) {
   moment(date).format("LT");
 }
-
 //const participantId = teamId;
 const toDate = "2022-12-23T18:25:43.511Z";
 const fromDate = "2022-07-23T18:25:43.511Z";
