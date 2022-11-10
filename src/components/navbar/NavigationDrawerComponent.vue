@@ -5,7 +5,7 @@
     class="border-b-sm bg-secondary"
     border="secondary"
     elevate-on-scroll
-    height="110"
+    height="100"
     :class="{ 'bg-transparent': props.transparent }"
   >
     <NavigationCardComponent></NavigationCardComponent>

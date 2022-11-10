@@ -2,7 +2,7 @@
   <v-container class="h-screen overflow-visible bg-background">
     <div v-if="$apollo.loading">Loading...</div>
     <div class="table mt-4 apollo mb-16" v-else>
-      <v-table class="mb-8">
+      <v-table height="650px" class="mb-8">
         <thead>
           <tr>
             <th class="font-weight-light">
@@ -21,6 +21,7 @@
         </thead>
         <tbody>
           <tr
+            class="hoverRow"
             v-for="team in tournamentStage.standings[0].participants"
             :key="team.rank"
           >

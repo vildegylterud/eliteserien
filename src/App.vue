@@ -1,5 +1,5 @@
 <template>
-  <v-app :theme="theme">
+  <v-app class="pb-16" :theme="theme">
     <NavigationDrawerComponent :transparent="transparentNavBar" />
 
     <v-main>
