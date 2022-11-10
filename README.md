@@ -1,5 +1,5 @@
 # Eliteserien 2022 
-## Visualization of the eliteserie table for 2022
+## The application are responsive, visualizable and brings in data from the eliteserien-table 2022. The table presents different data from each club, for example their table position, logo, amount of goals scored and overall points. It’s possible to click on each team to find the specific games that they are playing. On this site you can see information about the games that are played and games coming up.
 
 To install the project you first need to download the source code.
 
