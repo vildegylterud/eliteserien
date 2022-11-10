@@ -11,8 +11,6 @@ export const GET_TABLE = gql`
             name
             images {
               url
-              width
-              height
             }
           }
           rank

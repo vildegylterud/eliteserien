@@ -1,7 +1,7 @@
 <template>
-  <v-container class="h-screen">
+  <v-container class="h-screen overflow-visible bg-background">
     <div v-if="$apollo.loading">Loading...</div>
-    <div class="table mt-4 apollo" v-else>
+    <div class="table mt-4 apollo mb-16" v-else>
       <v-table class="mb-8">
         <thead>
           <tr>
@@ -75,7 +75,16 @@
                   class="text-secondary w-100 pl-12 text-decoration-underline"
                   :prepend-avatar="team.participant.images[0].url"
                   :title="team.participant.name"
-                  @click="$router.push({ name: 'team' })"
+                  @click.prevent="
+                    $router.push({
+                      name: 'team',
+                      params: {
+                        teamName: team.participant.name.valueOf(),
+                        teamLogo: team.participant.images[0].url.valueOf(),
+                        teamId: team.participant.id.valueOf(),
+                      },
+                    })
+                  "
                 >
                 </v-list-item>
               </v-card>
@@ -97,11 +106,7 @@
 
 <script lang="ts">
 import { GET_TABLE } from "@/queries/getTable";
-import { useRouter } from "vue-router";
-import { getApolloContext } from "@apollo/client";
-
 const tournamentStageId = "4e50ba57-d5fe-4370-b2f8-e357ebeb4c83";
-const router = useRouter();
 
 export default {
   apollo: {

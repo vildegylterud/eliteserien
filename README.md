@@ -1,4 +1,4 @@
-# eliteserie
+# Eliteserien
 
 ## Project setup
 ```

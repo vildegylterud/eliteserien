@@ -16,6 +16,10 @@ export const GET_TEAM = gql`
         name
       }
       participants {
+        results {
+          resultType
+          value
+        }
         participant {
           name
         }
