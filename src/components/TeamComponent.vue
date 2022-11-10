@@ -2,11 +2,10 @@
   <v-container>
     <div v-if="$apollo.loading">Loading...</div>
     <div v-else>
-      <div class="v-col-12">
-        <v-img :src="`${teamLogo}`" height="80"></v-img>
-        <h2>{{ teamName }}</h2>
-        <h2>{{ teamId }}</h2>
-      </div>
+      <v-card class="mt-8" elevation="0">
+        <v-img :src="`${teamLogo}`" height="90"></v-img>
+        <v-card-title class="text-center mt-2">{{ teamName }}</v-card-title>
+      </v-card>
     </div>
     <div class="table">
       <v-table fixed-header>
@@ -61,13 +60,9 @@ onMounted(async () => {
   teamId.value = route.params.id;
 });
 
-const participantId = "83af5c96-fe8d-4f60-a1ea-d89e01a14826";
+//const participantId = teamId;
 const toDate = "2022-12-23T18:25:43.511Z";
 const fromDate = "2022-08-23T18:25:43.511Z";
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-
-const date: any = new Date().toISOString().substring(0, 10);
 
 export default {
   props: ["teamName", "teamLogo", "teamId"],
@@ -75,7 +70,7 @@ export default {
     eventsByParticipantAndDateRange: {
       query: GET_TEAM,
       variables: {
-        participantId: participantId.valueOf(),
+        participantId: "83af5c96-fe8d-4f60-a1ea-d89e01a14826",
         toDate: "2022-12-23T18:25:43.511Z",
         fromDate: "2022-08-23T18:25:43.511Z",
       },
@@ -83,10 +78,9 @@ export default {
   },
   data() {
     return {
-      props: ["teamName"],
+      props: ["teamName", "teamLogo", "teamId"],
       loading: "",
-      error: "",
-      participantId: "83af5c96-fe8d-4f60-a1ea-d89e01a14826",
+      participantId: teamId.value,
       toDate: toDate.valueOf(),
       fromDate: fromDate.valueOf(),
       eventsByParticipantAndDateRange: [],
