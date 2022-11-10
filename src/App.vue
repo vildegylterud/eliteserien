@@ -1,7 +1,6 @@
 <template>
   <v-app class="pb-16" :theme="theme">
     <NavigationDrawerComponent :transparent="transparentNavBar" />
-
     <v-main>
       <router-view />
     </v-main>
